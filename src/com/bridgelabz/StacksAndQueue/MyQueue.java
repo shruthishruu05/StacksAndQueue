@@ -12,4 +12,15 @@ public class MyQueue<E extends Comparable<E>> {
 	public void printQueue() {
 		linkedList.printLinkedList();
 	}
+	public Object dequeue() {
+		return linkedList.pop();
+	}
+	public boolean isEmpty() {
+		if(linkedList.head != null) {
+			return false;
+		}
+		else {
+			return true;
+		}
+	}
 }
