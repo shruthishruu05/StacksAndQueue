@@ -2,6 +2,7 @@ package com.bridgelabz.StacksAndQueue;
 import com.bridgelabz.linkedlist.*;
 
 public class MyStack<E extends Comparable<E>>{
+	
 	private final LinkedList<E> linkedList ;
 	MyStack(){
 		linkedList = new LinkedList<E>();
