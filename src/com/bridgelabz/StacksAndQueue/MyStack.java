@@ -6,7 +6,6 @@ public class MyStack<E extends Comparable<E>>{
 	MyStack(){
 		linkedList = new LinkedList<E>();
 	}
-	
 	public void push(INode<E> data) {
 		linkedList.add(data);
 	}
