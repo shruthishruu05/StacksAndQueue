@@ -10,7 +10,14 @@ public class StackMain {
 		myStack.push(firstNode);
 		myStack.push(secondNode);
 		myStack.push(thirdNode);
+		INode<Integer> myNode = myStack.peek();
+		System.out.println("Stack Peek :"+myNode.getKey());
 		
+		Object poppedElement = myStack.pop();
+		System.out.println("Popped Element : "+poppedElement);
+		System.out.println("Stack after pop operation");
+		myStack.printStack();
+
 		myStack.printStack();
 		
 		
