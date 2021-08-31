@@ -13,5 +13,12 @@ public class QueueMain {
 		myQueue.enqueue(secondNode);
 		myQueue.enqueue(thirdNode);
 		myQueue.printQueue();
+		Object deQueuedElement = myQueue.dequeue();
+		System.out.println();
+		System.out.println("Queue after repeated dequeue Operation: ");
+		while(!myQueue.isEmpty()) {
+			myQueue.dequeue();
+			myQueue.printQueue();
+		}
 	}
 }
