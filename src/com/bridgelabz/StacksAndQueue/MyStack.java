@@ -10,12 +10,7 @@ public class MyStack<E extends Comparable<E>>{
 	public void push(INode<E> data) {
 		linkedList.add(data);
 	}
-	public Object pop() {
-		return linkedList.pop();
-	}
-	public INode<E> peek() {
-		return linkedList.head;
-	}
+	
 	public void printStack() {
 		linkedList.printLinkedList();
 	}
