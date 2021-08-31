@@ -9,7 +9,6 @@ public class MyStack<E extends Comparable<E>>{
 	public void push(INode<E> data) {
 		linkedList.add(data);
 	}
-	
 	public void printStack() {
 		linkedList.printLinkedList();
 	}
