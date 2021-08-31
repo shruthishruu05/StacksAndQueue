@@ -14,5 +14,12 @@ public class MyStack<E extends Comparable<E>>{
 	public void printStack() {
 		linkedList.printLinkedList();
 	}
+
+	public Object pop() {
+		return linkedList.pop();
+	}
+	public INode<E> peek() {
+		return linkedList.head;
+	}
 }
 
